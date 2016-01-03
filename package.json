@@ -9,7 +9,7 @@
   "engines": {
       "node": "4.2.x",
       "npm": "2.14.x"
-  }
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
