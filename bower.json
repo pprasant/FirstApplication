@@ -1,0 +1,19 @@
+{
+  "name": "application",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Prashant Singh Thakuri <daprasan@outlook.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "toastr": "~2.1.2",
+    "angular": "~1.4.8",
+    "angular-resource": "~1.4.8",
+    "angular-route": "~1.4.8"
+  }
+}
