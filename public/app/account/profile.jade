@@ -1,0 +1,33 @@
+.container
+    .well
+        form.form-horizontal(name="ProfileForm")
+            fieldset
+                legend User Profile
+                .form-group
+                    label.col-md-2.control-label(for="email") Email
+                    .col-md-10
+                        input.form-control(name="email", type="email", placeholder="email", ng-model="email", required)
+               
+                .form-group
+                    label.col-md-2.control-label(for="FName") First Name
+                    .col-md-10
+                        input.form-control(name="FName", type="text", placeholder="first name", ng-model="FName", required)
+                        
+                .form-group
+                    label.col-md-2.control-label(for="LName") Last Name
+                    .col-md-10
+                        input.form-control(name="LName", type="text", placeholder="last name", ng-model="LName", required)
+                        
+                 .form-group
+                    label.col-md-2.control-label(for="password") Password
+                    .col-md-10
+                        input.form-control(name="password", type="password", placeholder="password", ng-model="password")
+                        
+                .form-group
+                    .col-md-10.col-md-offset-2
+                        .pull-right
+                            button.btn.btn-primary(ng-click="update()", ng-disabled="") Submit
+                            | &nbsp;
+                            a.btn.btn-default(href="/") Cancel
+                        
+                        
